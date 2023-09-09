@@ -17,6 +17,7 @@ namespace _08Set2023.Controllers
         {
             _logger = logger;
         }
+        public WeatherForecastController() { }
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
